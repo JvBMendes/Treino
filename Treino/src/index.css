@@ -1,0 +1,30 @@
+:root {
+  --text-title: rgb(255, 0, 0);
+  --text-p: white;
+  --bg-primary: rgb(29, 28, 28);
+  --bg-secondary: black;
+  --shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  --color-shadow: aquamarine;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--bg-primary);
+  padding: 1em;
+}
+
+h1,h2,h3,h4,h5{
+  color: var(--text-title);
+}
+
+p{
+  color: var(--text-p);
+}
